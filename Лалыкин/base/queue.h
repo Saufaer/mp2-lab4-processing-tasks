@@ -21,6 +21,11 @@ public:
 	Type Get(void);	// извлечь элемент, считая, что его больше нет в очереди
 	Type Show(void); //взять элемент, считая, что он остался в очереди 
 
+		int GetCount()//вернуть количество элементов в очереди
+	{
+		return count_elem;
+	}
+	
 	bool IsEmpty (void) const //проверка пустоты
 	{ 
 		return (count_elem == 0);
