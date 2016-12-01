@@ -38,17 +38,18 @@ void Process()
 	switch (count) // начало оператора switch
 	{
 	case 1: 
-		{
+		{       
+			system("cls");
 			RiftCreation=0.6;   cout<<"  Порог для появления задачи:  "<<RiftCreation<<endl;
 			RiftExecution=0.8;  cout<<"  Порог для завершения задачи:  "<<RiftExecution<<endl;
 			SizeQueue=8;        cout<<"  Размер очереди:  "<<SizeQueue<<endl;
 			MaxCost=15;         cout<<"  Максимально возможная стоимость задачи:  "<<MaxCost<<endl;
 			Stop=10000000;      cout<<"  Количество тактов до автоматической остановки и вывода статистики - "<<Stop<<endl;
-
 			break;
 		}
 	case 2: 
-		{    
+		{       
+			system("cls");
 			cout<<"Введите порог для появления задачи: ";
 			cin >> RiftCreation;
 			cout<<"Введите порог для завершения задачи:  ";
